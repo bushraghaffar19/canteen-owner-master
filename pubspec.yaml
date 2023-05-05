@@ -1,0 +1,42 @@
+name: canteen_owner_app
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #The Following adds the cupertino icons to the Application
+  cupertino_icons: ^1.0.2
+  carousel_slider: ^4.2.0
+
+  image_picker: ^0.8.6
+  control_style: ^0.0.3
+  firebase_core: ^2.3.0
+  firebase_auth: ^4.1.5
+  cloud_firestore: ^4.1.0
+  firebase_storage: ^11.0.6
+  firebase_messaging: ^14.1.3
+  get: ^4.6.5
+  google_fonts: ^3.0.1
+  otp_text_field: ^1.1.3
+  email_auth: ^1.0.0
+  pinput: ^2.2.12
+
+  #The Following adds the flutter charts to the Application
+  charts_flutter: ^0.12.0
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
